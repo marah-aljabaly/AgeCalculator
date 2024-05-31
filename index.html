@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="title">
+    <p> Age Calculator Web Page</p>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <div class="day">
+        <p class="p-day">DAY</p>
+        <input type="text"
+        placeholder="DD"
+        class="data  js-day"
+        onkeydown=" 
+        if (event.key === 'Enter') {
+          ageCalculator();
+        }">
+        <p class="day-error"> </p>
+      </div>
+  
+      <div class="month">
+        <p class="p-month">MONTH</p>
+        <input type="text"
+        placeholder="MM"
+        class="data  js-month"
+        onkeydown=" 
+        if (event.key === 'Enter') {
+          ageCalculator();
+        }">
+        <p class="month-error"> </p>
+      </div>
+  
+      <div class="year">
+        <p class="p-year">YEAR</p>
+        <input type="text"
+        placeholder="YYYY"
+        class="data  js-year"
+        onkeydown=" 
+        if (event.key === 'Enter') {
+          ageCalculator();
+        }">
+        <p class="year-error"> </p>
+      </div>
+    </div>
+  
+    <div class="middle">
+      <hr>
+      <button class="calculate-btn" onclick=" ageCalculator();">
+        <img src="image/icon-arrow.svg">
+      </button>
+    </div>
+   
+    <div class="end-section"> 
+      <p class="p-end"> <span id="year-result">- -</span> years</p>
+      <p class="p-end"> <span id="month-result">- -</span> months</p>
+      <p class="p-end"> <span id="day-result">- -</span> days</p>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Coded by <a href="https://github.com/marah-aljabaly" target="_blank">Marah Aljabaly</a>.
+  </div>
+
+  <script src="JS/script.js"></script>
+  
+</body>
+</html>
