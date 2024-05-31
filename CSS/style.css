@@ -51,9 +51,7 @@ body{
   width: 150px;
   height: 50px;
   cursor: pointer;
-  outline: none; 
-  /* outline: none; 
-  تمثل الخط ما بعد الإطار ةلو ؤفعت الكود رح يضل أسود */
+  outline: none;
 }
 .data:hover {
   border-color:  hsl(259, 100%, 65%);
@@ -140,7 +138,7 @@ span{
     font-size: 40px;
   }
   .container{
-    width: 450px;
+    width: 530px;
     padding: 20px 40px;
   }
   .header{
@@ -177,7 +175,7 @@ span{
 
 /* start end section */
 .end-section{ font-family: Poppins-BoldItalic;
-  font-size: 70px;
+  font-size: 80px;
   padding-top: 50px;
   padding-bottom: 18px;
 }
