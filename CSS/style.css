@@ -135,12 +135,12 @@ span{
 
 
 
-@media (max-width: 765px) {
+@media (max-width: 700px) {
   .title {
     font-size: 40px;
   }
   .container{
-    width: 530px;
+    width: 450px;
     padding: 20px 40px;
   }
   .header{
@@ -177,20 +177,9 @@ span{
 
 /* start end section */
 .end-section{ font-family: Poppins-BoldItalic;
-  font-size: 80px;
+  font-size: 70px;
   padding-top: 50px;
   padding-bottom: 18px;
-}
-.p-end,
-.p-end,
-.p-end{
-  margin: 0;
-  padding: 0;
-  line-height: 90px;
-}
-
-span{
-  color:  hsl(259, 100%, 65%);
 }
 /* end end-section */
 
