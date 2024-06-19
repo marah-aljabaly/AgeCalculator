@@ -46,7 +46,7 @@ function ageCalculator() {
         invalid('year');
       }
 
-      if (ageDay.value > month[ageMonth.value - 1] || ageDay.value < 1) {
+      if (ageDay.value > 30 || ageDay.value < 1) {
         invalid('day');
       }
 
