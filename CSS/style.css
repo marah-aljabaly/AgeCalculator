@@ -15,12 +15,16 @@ body{
   background-color:  hsl(0, 0%, 86%);
 }
 .title {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  margin-top: 100px;
   font-family: Poppins-BoldItalic;
   color: hsl(259, 44%, 38%);
   font-size: 50px;
+}
+.title p {
+  margin: 0;
 }
 .container{
   background-color: white;
@@ -38,7 +42,7 @@ body{
 
 /* start header section */
 .header{
-  display: flex;
+  display: inline-flex;
   margin-bottom: 40px;
 }
 .data{
@@ -51,10 +55,10 @@ body{
   width: 150px;
   height: 50px;
   cursor: pointer;
-  outline: none;
-}
-.data:hover {
-  border-color:  hsl(259, 100%, 65%);
+  outline: none; 
+  /* outline: none; 
+  تمثل الخط ما بعد الإطار ةلو ؤفعت الكود رح يضل أسود */
+  caret-color: hsl(259, 100%, 65%);
 }
 .data:focus {
   border: 1px solid hsl(259, 100%, 65%);
@@ -79,6 +83,22 @@ body{
 .month-error,
 .day-error{
   margin-top: 7px;
+}
+
+
+/* code for js */
+.p-name-js{
+  color: hsl(0, 100%, 67%);
+}
+.error-js{
+  color: hsl(0, 100%, 67%);
+  font-Style: italic;
+  font-Weight: 500;
+}
+.input-border-color,
+.input-border-color:focus{
+  border-Color: hsl(0, 100%, 67%);
+  caret-color: hsl(0, 100%, 67%);;
 }
 /* end header section */
 
@@ -125,15 +145,15 @@ span{
 
 
 .attribution {
-  font-size: 23px; 
+  font-size: 20px; 
   text-align: center;
-  margin-top: 18px;
+  margin-top: 5px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 765px) {
   .title {
     font-size: 40px;
   }
@@ -142,7 +162,7 @@ span{
     padding: 20px 40px;
   }
   .header{
-    display: flex;
+    display: inline-flex;
     margin-bottom: 80px;
   }
   .data{
@@ -179,6 +199,16 @@ span{
   padding-top: 50px;
   padding-bottom: 18px;
 }
-/* end end-section */
+.p-end,
+.p-end,
+.p-end{
+  margin: 0;
+  padding: 0;
+  line-height: 90px;
+}
 
+span{
+  color:  hsl(259, 100%, 65%);
+}
+/* end end-section */
 }
