@@ -48,6 +48,7 @@ function ageCalculator() {
 
       if (ageDay.value > 30 || ageDay.value < 1) {
         invalid('day');
+        console.log(2)
       }
 
       if (ageYear.value === currentYear) {
