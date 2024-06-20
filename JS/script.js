@@ -150,6 +150,11 @@ function valid (value){
 }
 
 function calculate(){
+  const currentTime = new Date();
+  let currentDay = currentTime.getDate();
+  let currentMonth = currentTime.getMonth() + 1;
+  let currentYear = currentTime.getFullYear();
+  
   if (ageDay.value > currentDay){
     currentDay += month[ageMonth.value - 1];
     currentMonth = currentMonth - 1;
