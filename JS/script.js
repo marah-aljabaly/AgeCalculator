@@ -29,10 +29,10 @@ function ageCalculator() {
       requiredField('day');
     }
     if (ageYear.value == '') {
-      requiredField('month');
+      requiredField('year');
     }
     if (ageMonth.value == '') {
-      requiredField('year');
+      requiredField('month');
     }
   }
 
